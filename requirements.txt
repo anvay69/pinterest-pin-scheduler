@@ -1,0 +1,4 @@
+customtkinter
+Pillow
+selenium
+webdriver-manager

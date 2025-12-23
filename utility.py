@@ -18,7 +18,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 # storing and loading cookies
 from datetime import datetime, timedelta
-# import time # might need it cuz I don't know asynchronous programming
+# import time 
 import os
 import json
 # import re

@@ -114,11 +114,13 @@ def update_location(value):
 
 
 def date_not_valid(date_string, location):
+    # TODO
     return False
 
 
 
 def time_not_valid(time_string, date_string, location):
+    # TODO
     return False
 
 
