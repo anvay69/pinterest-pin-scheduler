@@ -1,0 +1,32 @@
+{
+    "user-data-dir": "[Chrom User Data Directory]",
+    "profile-dir": "[Profile Directory]",
+
+    "config": {
+        "board": "[board name]",
+        "link": "https://www.something.com",
+        "num": 13,
+        "location": "UK",
+        "start_date": "19/06/2024",
+        "start_time": "09:30 PM"
+    },
+
+    "selectors": {
+        "board_select": "button[data-test-id='board-dropdown-select-button']",
+        "board_row": "div[data-test-id='board-row-{[board-name]}']",
+        "link_input": "textarea[id^='pin-draft-link']",
+        "publish_later": "input[id^='pin-draft-schedule-publish-later']",
+        "option_menu": "div[data-test-id='pindraft-option-menu']",
+        "duplicate_option": "div[id='icon-button-menu-item-1']",
+        "image_input": "input[id^='media-upload-input']",
+        "date_input": "input[id^='pin-draft-schedule-date-field']",
+        "time_input": "input[id^='pin-draft-schedule-time-field']",
+        "time_element": "div[id='time-field-dropdown-item-{[time-index]}']",
+        "time_common": "div[data-test-id='boardWithoutSection'] > div > div > div:nth-child(2) > div[title]"
+    },
+
+    "date_locations": {
+        "US": "%m/%d/%Y",
+        "UK": "%d/%m/%Y"
+    }
+}
