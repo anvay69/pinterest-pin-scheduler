@@ -33,8 +33,8 @@ Follow these steps to set up the project on your local machine:
 
 1.  **Clone the repository:**
     
-        git clone git@github.com:anvay69/bulk_pin.git
-        cd bulk_pin
+        git clone git@github.com:anvay69/pinterest-pin-scheduler.git
+        cd pinterest-pin-scheduler
     
 2.  **Install required packages:**
     
